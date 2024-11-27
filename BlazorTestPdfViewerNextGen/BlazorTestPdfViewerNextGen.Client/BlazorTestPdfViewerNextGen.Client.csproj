@@ -8,7 +8,7 @@
     <StaticWebAssetProjectMode>Default</StaticWebAssetProjectMode>
   </PropertyGroup>
   <ItemGroup>
-    <NativeFileReference Include="$(SkiaSharpStaticLibraryPath)\2.88.8\*.a" />
+    <NativeFileReference Include="$(SkiaSharpStaticLibraryPath)\3.1.34\st\*.a" />
   </ItemGroup>
 
   <PropertyGroup>
@@ -20,6 +20,8 @@
     <PackageReference Include="Syncfusion.Blazor.SfPdfViewer" Version="27.2.4" />
     <PackageReference Include="Syncfusion.Blazor.Themes" Version="27.2.4" />
     <PackageReference Include="SkiaSharp.NativeAssets.WebAssembly" Version="2.88.8" />
+
+    <PackageReference Include="FluentValidation" Version="11.11.0" />
   </ItemGroup>
 
 </Project>
