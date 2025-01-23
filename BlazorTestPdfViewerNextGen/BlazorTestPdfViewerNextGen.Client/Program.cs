@@ -9,7 +9,7 @@ namespace BlazorTestPdfViewerNextGen.Client
         {
             var builder = WebAssemblyHostBuilder.CreateDefault(args);
             builder.Services.AddSyncfusionBlazor();
-
+            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("todo");
             // If you are using a WebAssembly application, include the following line in the Program.cs file
             builder.Services.AddMemoryCache();
             await builder.Build().RunAsync();
